@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Todo</string>
+
+    <string name="new_list_name">New Todo List Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="error_hint_title_can_not_be_empty">Title can not be empty!</string>
+    <string name="no_data_available">No data available</string>
+    <string name="title_activity_todo_task">TodoTaskActivity</string>
+    <string name="delete_all">Delete all</string>
+    <string name="mark_all_done">Mark all done</string>
+    <string name="action_search">Search todo</string>
+    <string name="search_task">Search tasl</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="action_log_out">Log out</string>
+</resources>

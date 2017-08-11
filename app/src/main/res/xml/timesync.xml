@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timesync>
+    <listener
+        name=".TodoSync"
+        every="5 minutes"
+        range="2 minutes" />
+    <listener
+        name=".TaskSync"
+        every="5 minutes"
+        range="2 minutes" />
+</timesync>

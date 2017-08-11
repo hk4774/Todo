@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/item_indecator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_add_box_black_24dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/tv_task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_indecator"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/item_indecator"
+        android:layout_toRightOf="@+id/item_indecator"
+        android:gravity="center"
+        android:text="Hello world"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib_edit_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/cb_mark"
+        android:layout_toStartOf="@+id/cb_mark"
+        android:background="@drawable/ic_mode_edit_black_24dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center" />
+
+    <CheckBox
+        android:id="@+id/cb_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:layout_alignBaseline="@+id/tv_task_name"
+        android:layout_alignBottom="@+id/tv_task_name"
+        android:layout_toLeftOf="@+id/ib_delete_task"
+        android:layout_toStartOf="@+id/ib_delete_task" />
+
+    <ImageButton
+        android:id="@+id/ib_delete_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_indecator"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_delete_black_24dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginRight="10dp" />
+
+
+</RelativeLayout>

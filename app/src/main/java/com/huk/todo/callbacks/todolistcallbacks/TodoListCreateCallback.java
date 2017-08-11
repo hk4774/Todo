@@ -1,0 +1,11 @@
+package com.huk.todo.callbacks.todolistcallbacks;
+
+/**
+ * Created by User on 8/9/2017.
+ */
+
+public interface TodoListCreateCallback {
+    void onTodoCreated();
+
+    void onTodoCreated(String todoName);
+}
